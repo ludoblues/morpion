@@ -1,0 +1,9 @@
+{	
+  "name": "Morpion", 
+  "version": "0.0.1",
+  "email": "ludovic.vue@gmail.com",
+  "dependencies": {
+    "socket.io": ">=0.9.13"
+  },
+  "global-packets": ["node", "forever"]
+}
