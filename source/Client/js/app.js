@@ -104,7 +104,7 @@ var App = {
 	id: '',
 	
 	initialize: function() {
-	    this.socket = io.connect('http://localhost:4250');
+	    this.socket = io.connect('http://localhost:4251');
 	    this.socket.on('wait', this.wait);
 	    this.socket.on('start', this.start);
 	    this.socket.on('play', App.Playground.update);

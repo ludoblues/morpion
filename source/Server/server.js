@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var io = require('socket.io').listen(4250);
+var io = require('socket.io').listen(4251);
 
 function OGame(id) {
     var that = this;
