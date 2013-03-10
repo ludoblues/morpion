@@ -2,12 +2,12 @@ var App = {
     Scenarios: {
 	victory: function(data) {
 	    App.Clock.stop();
-	    $('h1#status-game').text('Player '+data.user_id+' won!');
+	    $('h1#status-game').text('Player '+data.user_id+' won! ('+data.feedback+')');
 	},
 	
 	equality: function(data) {
 	    App.Clock.stop();
-	    $('h1#status-game').text('Anybody won!');
+	    $('h1#status-game').text('Anybody won! ('+data.feedback+')');
 	}
     },
 
